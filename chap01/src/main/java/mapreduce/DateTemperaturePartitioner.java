@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.Partitioner;
  * and before the reduce() phase
  *
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 11:05
+ * @createDate: 2020-01-08
  */
 public class DateTemperaturePartitioner extends Partitioner<DateTemperaturePair, Text> {
     @Override

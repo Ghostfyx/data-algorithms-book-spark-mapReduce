@@ -7,7 +7,7 @@ import scala.Tuple2;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 14:51
+ * @createDate: 2020-01-09
  */
 public class CustomPartitioner extends Partitioner {
 

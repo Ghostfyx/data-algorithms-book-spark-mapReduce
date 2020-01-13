@@ -6,7 +6,7 @@ import org.apache.hadoop.io.WritableComparator;
 /**
  * @description: 组合键比较器
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 17:21
+ * @createDate: 2020-01-09
  */
 public class CompositeKeyComparator extends WritableComparator {
 

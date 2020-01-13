@@ -6,7 +6,7 @@ import org.apache.spark.api.java.JavaSparkContext;
 /**
  * @description: SpaarkContext创建工具类
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 17:24
+ * @createDate: 2020-01-08
  */
 public class SparkUtil {
 

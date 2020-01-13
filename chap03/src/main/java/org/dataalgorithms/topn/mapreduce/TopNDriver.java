@@ -16,7 +16,7 @@ import org.apache.hadoop.util.ToolRunner;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-10 9:14
+ * @createDate: 2020-01-10
  */
 public class TopNDriver extends Configured implements Tool {
 

@@ -8,7 +8,7 @@ import java.util.Comparator;
 /**
  * @description: Spark 分区比较器
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 14:54
+ * @createDate: 2020-01-09
  */
 public class TupleComparatorDescending implements Serializable, Comparator<Tuple2<String, Integer>> {
 

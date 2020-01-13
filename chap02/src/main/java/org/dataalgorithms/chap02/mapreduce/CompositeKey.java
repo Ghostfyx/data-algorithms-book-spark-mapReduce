@@ -16,7 +16,7 @@ import java.io.IOException;
  * and in sorted order.
  *
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 16:52
+ * @createDate: 2020-01-09
  */
 public class CompositeKey implements WritableComparable<CompositeKey> {
 

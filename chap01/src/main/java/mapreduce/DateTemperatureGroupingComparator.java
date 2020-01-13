@@ -9,7 +9,7 @@ import org.apache.hadoop.io.WritableComparator;
  * objects. This class is needed for sorting
  * purposes.
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 11:18
+ * @createDate: 2020-01-08
  */
 public class DateTemperatureGroupingComparator extends WritableComparator {
 

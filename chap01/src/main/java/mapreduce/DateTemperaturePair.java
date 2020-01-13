@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * @description: 自然键，自定义输入类需要实现比较器，为了在map之后进行排序
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 10:51
+ * @createDate: 2020-01-08
  */
 public class DateTemperaturePair implements Writable, WritableComparable<DateTemperaturePair> {
 

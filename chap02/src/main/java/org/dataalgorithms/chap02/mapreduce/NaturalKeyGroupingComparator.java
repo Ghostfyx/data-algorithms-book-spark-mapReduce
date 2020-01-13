@@ -6,7 +6,7 @@ import org.apache.hadoop.io.WritableComparator;
 /**
  * @description: 自然键分组定义
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 17:32
+ * @createDate: 2020-01-09
  */
 public class NaturalKeyGroupingComparator extends WritableComparator {
 

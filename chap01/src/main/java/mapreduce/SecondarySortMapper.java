@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 11:33
+ * @createDate: 2020-01-08
  */
 public class SecondarySortMapper extends Mapper<LongWritable, Text, DateTemperaturePair, Text> {
 

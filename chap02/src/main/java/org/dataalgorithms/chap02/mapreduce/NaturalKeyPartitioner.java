@@ -5,7 +5,7 @@ import org.apache.hadoop.mapreduce.Partitioner;
 /**
  * @description: 自然键分区
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 17:56
+ * @createDate: 2020-01-09
  */
 public class NaturalKeyPartitioner extends Partitioner<CompositeKey, NaturalValue> {
     @Override

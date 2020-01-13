@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 18:00
+ * @createDate: 2020-01-09
  */
 public class SecondarySortMapper extends Mapper<LongWritable, Text, CompositeKey, NaturalValue> {
 

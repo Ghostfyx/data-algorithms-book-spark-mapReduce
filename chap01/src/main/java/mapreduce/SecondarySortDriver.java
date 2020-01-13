@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 /**
  * @description: MapReduce 实现二次排序启动类
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 13:47
+ * @createDate: 2020-01-08
  */
 public class SecondarySortDriver extends Configured implements Tool {
 

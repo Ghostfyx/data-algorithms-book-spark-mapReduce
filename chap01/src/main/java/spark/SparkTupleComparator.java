@@ -8,7 +8,7 @@ import java.util.Comparator;
 /**
  * @description: spark tuple2定制比较器
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 18:02
+ * @createDate: 2020-01-08
  */
 public class SparkTupleComparator implements Comparator<Tuple2<Integer, Integer>>, Serializable {
 

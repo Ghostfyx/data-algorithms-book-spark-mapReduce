@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 13:43
+ * @createDate: 2020-01-08
  */
 public class SecondarySortReducer extends Reducer<DateTemperaturePair, Text, Text, Text> {
 

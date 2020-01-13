@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 18:11
+ * @createDate: 2020-01-09
  */
 public class SecondarySortReducer extends Reducer<CompositeKey, NaturalValue, Text, Text> {
 

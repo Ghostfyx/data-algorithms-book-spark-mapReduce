@@ -17,7 +17,7 @@ import java.util.TreeMap;
 /**
  * @description: Combiner是一个本地化的reduce操作，它是map运算的后续操作，主要是在map计算出中间文件前做一个简单的合并重复key值的操作，
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 10:26
+ * @createDate: 2020-01-09
  */
 public class SecondarySortUsingCombineByKey {
 

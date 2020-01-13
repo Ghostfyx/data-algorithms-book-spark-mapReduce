@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * @description: 自然值
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 17:36
+ * @createDate: 2020-01-09
  */
 public class NaturalValue implements Writable, Comparable<NaturalValue> {
 

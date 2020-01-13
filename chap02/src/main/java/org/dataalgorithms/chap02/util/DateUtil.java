@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 18:07
+ * @createDate: 2020-01-09
  */
 public class DateUtil {
 

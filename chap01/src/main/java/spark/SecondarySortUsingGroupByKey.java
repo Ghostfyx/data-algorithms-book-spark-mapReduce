@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * @description: Spark 使用GroupByKey 方式在内存中进行二次排序（实现方式1）
  * @author: fanyeuxiang
- * @createDate: 2020-01-08 17:17
+ * @createDate: 2020-01-08
  */
 public class SecondarySortUsingGroupByKey {
 

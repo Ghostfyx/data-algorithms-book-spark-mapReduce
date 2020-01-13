@@ -15,7 +15,7 @@ import java.util.TreeMap;
  *  We have a single reducer, which creates the final top N.
  *
  * @author: fanyeuxiang
- * @createDate: 2020-01-10 9:14
+ * @createDate: 2020-01-10
  */
 public class TopNReducer extends Reducer<NullWritable, Text, DoubleWritable, Text> {
 

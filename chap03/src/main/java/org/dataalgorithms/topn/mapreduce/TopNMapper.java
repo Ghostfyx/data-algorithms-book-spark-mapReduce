@@ -12,7 +12,7 @@ import java.util.TreeMap;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-10 9:14
+ * @createDate: 2020-01-10
  */
 public class TopNMapper extends Mapper<LongWritable,Text,NullWritable, Text> {
 

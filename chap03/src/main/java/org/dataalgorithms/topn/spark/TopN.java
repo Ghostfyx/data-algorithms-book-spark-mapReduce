@@ -17,7 +17,7 @@ import java.util.*;
  * This means that there will not etries like (A, 5) and (A, 8).
  *
  * @author: fanyeuxiang
- * @createDate: 2020-01-10 16:09
+ * @createDate: 2020-01-10
  */
 public class TopN {
 

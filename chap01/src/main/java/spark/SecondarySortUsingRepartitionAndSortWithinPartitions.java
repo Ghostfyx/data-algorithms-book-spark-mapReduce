@@ -22,7 +22,7 @@ import scala.Tuple2;
  * from 0 to numPartitions - 1.
  *
  * @author: fanyeuxiang
- * @createDate: 2020-01-09 14:17
+ * @createDate: 2020-01-09
  */
 public class SecondarySortUsingRepartitionAndSortWithinPartitions {
 
