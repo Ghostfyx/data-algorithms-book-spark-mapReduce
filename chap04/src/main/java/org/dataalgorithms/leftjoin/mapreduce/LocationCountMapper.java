@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * @description: 左连接第二阶段Mapper
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 14:53
+ * @createDate: 2020-01-13
  */
 public class LocationCountMapper extends Mapper<Text, Text, Text, Text> {
 

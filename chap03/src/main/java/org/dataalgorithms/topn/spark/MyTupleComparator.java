@@ -8,7 +8,7 @@ import java.util.Comparator;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 10:23
+ * @createDate: 2020-01-13
  */
 public class MyTupleComparator implements Comparator<Tuple2<String, Integer>>, Serializable {
 

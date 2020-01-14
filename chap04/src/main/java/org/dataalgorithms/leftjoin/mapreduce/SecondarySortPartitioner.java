@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Partitioner;
 /**
  * @description: 分区函数，将相同的Key发送到一个Reducer处理
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 13:59
+ * @createDate: 2020-01-13
  */
 public class SecondarySortPartitioner extends Partitioner<PairOfStrings, Object> {
 

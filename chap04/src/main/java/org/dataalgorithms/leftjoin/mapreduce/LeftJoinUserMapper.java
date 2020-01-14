@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * @description: Spark 左外链接读取User数据
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 11:03
+ * @createDate: 2020-01-13
  */
 public class LeftJoinUserMapper extends Mapper<LongWritable, Text, PairOfStrings, PairOfStrings> {
 

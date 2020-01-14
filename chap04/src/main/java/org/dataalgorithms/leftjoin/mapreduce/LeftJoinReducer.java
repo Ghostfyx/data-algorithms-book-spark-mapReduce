@@ -10,7 +10,7 @@ import java.util.Iterator;
 /**
  * @description: Iterable<PairOfStrings> values must be: {UserData,ProductData,ProductData,ProductData,ProductData}
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 14:14
+ * @createDate: 2020-01-13
  */
 public class LeftJoinReducer extends Reducer<PairOfStrings, PairOfStrings, Text, Text> {
 

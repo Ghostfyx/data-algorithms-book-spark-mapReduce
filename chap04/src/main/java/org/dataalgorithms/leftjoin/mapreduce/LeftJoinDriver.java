@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 14:29
+ * @createDate: 2020-01-13
  */
 public class LeftJoinDriver {
 

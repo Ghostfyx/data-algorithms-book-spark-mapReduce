@@ -10,7 +10,7 @@ import org.apache.hadoop.io.RawComparator;
  * RawComparator:对对象的字节表示进行比较的接口
  *
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 14:03
+ * @createDate: 2020-01-13
  */
 public class SecondarySortGroupComparator implements RawComparator<PairOfStrings> {
     @Override

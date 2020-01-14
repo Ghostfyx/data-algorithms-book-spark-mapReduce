@@ -11,7 +11,7 @@ import java.util.Set;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 14:57
+ * @createDate: 2020-01-13
  */
 public class LocationCountReducer extends Reducer<Text, Text, Text, IntWritable> {
 

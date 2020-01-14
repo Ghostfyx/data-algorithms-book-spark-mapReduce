@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * @description:
  * @author: fanyeuxiang
- * @createDate: 2020-01-13 13:46
+ * @createDate: 2020-01-13
  */
 public class LeftJoinTransactionMapper extends Mapper<LongWritable, Text, PairOfStrings, PairOfStrings> {
 
