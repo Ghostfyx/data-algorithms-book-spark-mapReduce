@@ -11,6 +11,7 @@
         <module name="chap03" />
         <module name="chap04" />
         <module name="chap05" />
+        <module name="chap06" />
         <module name="common-util" />
       </profile>
     </annotationProcessing>

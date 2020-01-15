@@ -7,3 +7,17 @@
 *.iml
 out
 gen
+chap01/src/test/
+chap01/target/
+chap02/src/main/data/
+chap02/src/test/
+chap02/target/
+chap03/src/main/java/org/dataalgorithms/topn/sparkwithlambda/
+chap03/src/test/
+chap03/target/
+chap04/src/test/
+chap04/target/
+chap05/dependency-reduced-pom.xml
+chap05/src/main/resources/
+chap05/src/test/
+chap05/target/
