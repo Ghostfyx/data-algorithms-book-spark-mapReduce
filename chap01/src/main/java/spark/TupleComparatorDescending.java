@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Comparator;
 
 /**
- * @description: Spark 分区比较器
+ * @description: Spark 组合键排序比较器
  * @author: fanyeuxiang
  * @createDate: 2020-01-09
  */
