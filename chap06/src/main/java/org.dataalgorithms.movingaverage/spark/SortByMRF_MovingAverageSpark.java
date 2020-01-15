@@ -44,6 +44,10 @@ public class SortByMRF_MovingAverageSpark {
             return new Tuple2<>(s._1._1, s._2);
         });
 
+        natureSorted.collect().forEach((Tuple2<String, Tuple2<Long, Double>> s) ->{
+            System.out.println("key:"+ s._1);
+            System.out.println(s._2._1 + "," + s._2._2);
+        });
     }
 
 }
