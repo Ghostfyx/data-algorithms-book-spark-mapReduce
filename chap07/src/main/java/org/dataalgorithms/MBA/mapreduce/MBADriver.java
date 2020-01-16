@@ -36,6 +36,7 @@ public class MBADriver extends Configured implements Tool {
         FileOutputFormat.setOutputPath(job, new Path(outputPath));
         job.getConfiguration().setInt("number.of.pairs", numberOfPairs);
         job.setMapperClass(MBAMapper.class);
+        job.setCombinerClass(MBAReducer.class);
         job.setReducerClass(MBAReducer.class);
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
