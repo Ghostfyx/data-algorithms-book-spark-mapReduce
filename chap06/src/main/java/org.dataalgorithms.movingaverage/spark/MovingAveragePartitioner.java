@@ -29,9 +29,21 @@ public class MovingAveragePartitioner extends Partitioner {
         } else if (key instanceof Tuple2) {
             @SuppressWarnings("unchecked")
             Tuple2<String, Long> tuple2 = (Tuple2<String, Long>) key;
-            return Math.abs(tuple2._1.hashCode() % numPartitions);
+            return Math.abs((int)(hash(tuple2._1 )% numPartitions));
         } else {
             return Math.abs(key.hashCode() % numPartitions);
         }
+    }
+
+    /**
+     * adapted from String.hashCode()
+     */
+    static long hash(String str) {
+        long h = 1125899906842597L; // prime
+        int length = str.length();
+        for (int i = 0; i < length; i++) {
+            h = 31 * h + str.charAt(i);
+        }
+        return h;
     }
 }

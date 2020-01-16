@@ -1,0 +1,8 @@
+crackers,bread,banana
+crackers,coke,butter,coffee
+crackers,bread
+crackers,bread
+crackers,bread
+crackers,bread,coffee
+coke,butter
+coke,butter,bread,crackers

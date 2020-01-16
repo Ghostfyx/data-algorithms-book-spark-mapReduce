@@ -19,7 +19,7 @@ public class MovingAverageComparator implements Serializable, Comparator<Tuple2<
 
     @Override
     public int compare(Tuple2<String, Long> o1, Tuple2<String, Long> o2) {
-        if (o1._1.compareTo(o2._1) != 0) {
+        if (o1._1.compareTo(o2._1) == 0) {
             return o1._2.compareTo(o2._2);
         } else {
             return o1._1.compareTo(o2._1);
