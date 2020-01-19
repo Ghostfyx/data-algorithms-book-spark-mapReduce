@@ -49,13 +49,14 @@ public class Combination {
      *
      */
     public static <T extends Comparable<? super T>> List<List<T>> findSortedCombinations(Collection<T> elements, int n) {
+        // 最终返回结果
         List<List<T>> result = new ArrayList<List<T>>();
 
         if (n == 0) {
             result.add(new ArrayList<T>());
             return result;
         }
-
+        // 使用递归的方式生成
         List<List<T>> combinations = findSortedCombinations(elements, n - 1);
         for (List<T> combination: combinations) {
             for (T element: elements) {
@@ -94,8 +95,9 @@ public class Combination {
      */
     public static void main(String[] args) {
         List<String> elements = Arrays.asList("a", "b", "c", "d", "e");
-        List<List<String>> combinations = findSortedCombinations(elements, 2);
-        System.out.println(combinations);
+//        List<List<String>> combinations = findSortedCombinations(elements, 3);
+        elements.remove(2);
+        System.out.println(elements);
     }
 
 }
